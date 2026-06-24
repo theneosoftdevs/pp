@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;850;900&family=Space+Grotesk:wght@400;500;600;700;850;900&family=JetBrains+Mono:wght@400;500;750;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom visual presentation rules for Vibrant Palette */
+body {
+  font-family: var(--font-sans);
+  background-color: #FFFAF0; /* Beautiful soft ivory/off-white */
+  color: #1A1A1A; /* Dark high-contrast gray */
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFAF0;
+  border-left: 2px solid #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFD93D;
+  border: 2px solid #000000;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6B6B;
+}
+
+/* Base custom classes if needed */
+.glow-ring {
+  box-shadow: 0 0 15px rgba(255, 107, 107, 0.4);
+}
+

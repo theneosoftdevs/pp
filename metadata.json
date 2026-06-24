@@ -1,0 +1,6 @@
+{
+  "name": "Présentation Projet Idjwi",
+  "description": "Une application de présentation interactive pour l'exposé du projet d'électrification de l'île d'Idjwi par une centrale solaire de 1,5 MWc.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
